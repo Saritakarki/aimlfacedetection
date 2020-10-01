@@ -68,8 +68,8 @@ class FaceDetection:
 
 if __name__ == '__main__':
     # Initializing class and creating a class object
-    fd = FaceDetection(file_path='/home/spandey/Downloads/image.png',
-                       access_key='ASIAYCBWE4BR2ICTPWFR',
-                       access_secret='sULpD3NX66EpX/TBY8ZbtgI0mVIkGxq8f80PgcLj',
-                       access_token='FwoGZXIvYXdzEFsaDCEYgEpuOVCxFHg65CLXAfMmf31ovHR5440ICGYU7swXY2ch/sJ41KVn5bvdRevnmDDWhh1ebZRB/DAsdGyMZ/Mu5tE1npyrJ0c8Gtqfmwd3raV0r0VwORSpSpNozMvAyztKpB8Ls2W4hmid+grIVrACAxdhYmTZCTStdt7vuuJKc+QBDp5YI85PFChSKzNzkxF12QZJ095YN+P1QxwZgvBG9IjolBUthzO5CVFlUynsMF6fV2mebB4U32/IYGBNt1R1h0O9EftyVoZT5PkVHPgB+JG8hfVltNfZRmWJdDJlrPbMOVFgKI261vsFMi1jtgb/RBlAES9DH2hWK6upFnOtgF3os7Iy1ZHHbbrlXajo106B6HNqYxRUHqA=')
+    fd = FaceDetection(file_path='your image path',
+                       access_key='your access key',
+                       access_secret='access secret',
+                       access_token='token')
     fd.run()
