@@ -1,0 +1,10 @@
+1.The class FaceDetection accepts image and aws access keys as parameters.
+2. When you initialize the class you send these parameters which are stored in the variables. These variables
+   are initialized by dunder function __init__ automatically.
+3. After you create object, you call the run method through the created object and run method calls face_detection method.
+4. The face_detection method reads the image as bytes and boto3 detect_faces api is triggered to get the
+    details of the passed image.
+5. In response the api gives the details in json format
+6. Finally you parse the json response as per the need to extract the desired field.
+    Note: This extraction method could be made dynamic but the nature of the data field provided by api
+            are not same so had to do manual parsing.
